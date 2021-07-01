@@ -35,10 +35,10 @@ const ProjectContainer = styled.section`
 `
 const ProjectsView= styled.div`
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     place-items: center;
     column-gap: 1rem;
-    row-gap: 3rem;
+    row-gap: 1.5rem;
     @media(max-width: 425px){
         display: flex;
         flex-direction: column;
