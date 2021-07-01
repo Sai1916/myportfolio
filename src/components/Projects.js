@@ -38,7 +38,7 @@ const ProjectsView= styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
     column-gap: 1rem;
-    row-gap: 2rem;
+    row-gap: 3rem;
     @media(max-width: 425px){
         display: flex;
         flex-direction: column;
