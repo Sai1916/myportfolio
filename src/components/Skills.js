@@ -10,9 +10,11 @@ export default function Skills() {
                 Skills
             </Head> 
             <SkillsContainer> 
+                <Fade in={true} timeout={3000}>
                     <ImageContainer>
                         <Image width={700} height={400} src="/portfolio.svg" alt="portfolio" />
                     </ImageContainer>
+                </Fade>    
                 <Fade in={true} timeout={3000}>
                     <SkillsItems>
                         <Skill>  
