@@ -52,7 +52,6 @@ const Data = styled.div`
     height: 100%;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    position: relative;
     border-radius: 20px;
     :hover{
         transform: scale(1.01);
@@ -64,6 +63,6 @@ const Data = styled.div`
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 340px;
+        height: 200px;
     }
 `
