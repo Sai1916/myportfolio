@@ -21,9 +21,8 @@ export default function Education() {
 }
 
 const EducationContainer = styled.section`
-    align-items:center;
+    // align-items:center;
     padding: 30px;
-    padding-bottom: 10px;
     background: #2f2945;
     color: white;
     display: flex;
@@ -33,17 +32,18 @@ const Title = styled.h4`
     font-size: 24px;
     margin-top: 40px;
     text-transform: uppercase;
+    margin-bottom: 60px;
 `
 const Details = styled.div`
     padding: 20px;
     margin: 10px;
     display: flex;
-    height: 200px;;
+    height: 240px;;
     align-items: center;
     justify-content: center;
     @media (max-width:425px){
         padding: 10px;
-        height: 100px;
+        height: 160px;
     }
 `
 const Data = styled.div`
@@ -63,6 +63,6 @@ const Data = styled.div`
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 200px;
+        height: 100%;
     }
 `
