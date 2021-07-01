@@ -26,6 +26,8 @@ const EducationContainer = styled.section`
     padding-bottom: 10px;
     background: #2f2945;
     color: white;
+    display: flex;
+    flex-direction: column;
 `
 const Title = styled.h4`
     font-size: 24px;
@@ -41,6 +43,7 @@ const Details = styled.div`
     justify-content: center;
     @media (max-width:425px){
         padding: 10px;
+        height: 100px;
     }
 `
 const Data = styled.div`
