@@ -36,7 +36,7 @@ function Project({title,description,image,repo,demo}) {
 export default Project
 
 const Container = styled.div`
-    height: 500px;
+    height: 460px;
     width: 320px;
     background: #493b66;
     color: white;
