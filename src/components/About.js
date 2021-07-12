@@ -30,7 +30,7 @@ export default function About() {
             <Line />
             <Description>
                 <Text>
-                    I was an enthusiastic Web and Mobile App Developer also a CyberSecurity Student.
+                    Full Stack React.js Web Developer and React-Native Developer, UI & UX Designer, CyberSecurity Student.
                     <Location>
                         Was watching you from Andhra Pradesh, India.
                     </Location>
