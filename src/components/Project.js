@@ -9,7 +9,7 @@ function Project({title,description,image,repo,demo}) {
             <Title>
                 {title}
             </Title>
-            <Image className={styles.projectImage} objectFit="contain" width="270%" height="180%" src={image} alt="image"/>mage"/>
+            <Image className={styles.projectImage} objectFit="contain" width="270%" height="180%" src={image} alt="image"/>
             <Description>
                 {description}
             </Description>
