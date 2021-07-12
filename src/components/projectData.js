@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: 'Netflix Clone',
-        image: '/netflixHome.png',
+        image: '/netflixHome.PNG',
         description: 'This project done using React, Redux for state management, Firebase for authentication and hosting. I have used TMDB API to retrieve the movies and to display them in my application. Also created a profile page for the user who logged into the application can view that.',
         repoLink: 'https://github.com/Sai1916/Netflix-Clone',
         demoLink: 'https://netflix-clone-27942.web.app/',
