@@ -18,7 +18,7 @@ export const projects = [
     {
         id: 3,
         title: 'BookMyShow App Redesign',
-        image: '/Youtube.png',
+        image: '/bookmyshow.png',
         description: 'The BookMyShow App redesign has done using Adobe-XD with both Light-mode and Dark-mode.',
         repoLink: '',
         demoLink: 'https://xd.adobe.com/view/f65cd26e-a455-4c4c-ade7-af014605a4c1-a30f/',
