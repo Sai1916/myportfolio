@@ -2,6 +2,9 @@ import React,{ useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
+import { SwipeableDrawer, Button } from '@material-ui/core';
 
 export default function Header() {
 
@@ -61,6 +64,9 @@ export default function Header() {
                     </Link>
                 </Item>
             </NavItems>
+            <MenuHeaderIcon>
+                <MenuIcon />
+            </MenuHeaderIcon>
         </HeaderContainer>
     )
 }
@@ -76,12 +82,21 @@ const HeaderContainer = styled.header`
     z-index: 100;
     align-items: center;
     justify-content: space-around;
-    @media (max-width:604px){
-        height: 40px;
+
+    @media (min-width: 426px) and (max-width: 640px){
+        height: 50px;
         display:flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
+
+    @media (max-width:425){
+        height: 40px;
+        display:flex;
+        align-items: center;
+        justify-content: space-around; 
+    }
+    
 `
 const Logo = styled.h2`
    font-weight: 700;
@@ -95,9 +110,27 @@ const NavItems = styled.div`
     @media (max-width:425px){
         display:none;
     }
+    @media (min-width: 426px) and (max-width: 640px){
+        display:flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+    @media (min-width: 641px) and (max-width: 768px){
+       font-size: 14px;
+    }
 `
 const Item = styled.h4`
     // margin-right: 40px;
     font-weight: 600;
     cursor:pointer;
+`
+const MenuHeaderIcon = styled.div`
+    display: none;
+    @media (max-width: 425px){
+        display: block;
+        margin-top: 10px;
+        cursor: pointer;
+    }
 `
