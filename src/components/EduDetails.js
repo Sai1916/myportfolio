@@ -53,7 +53,7 @@ const Title = styled.h3`
         font-size: 20px;
     }
 `
-const Branch = sytled.p`
+const Branch = styled.p`
     font-size: 16px;
     font-weight: 600px;
     @media (max-width:425px){
