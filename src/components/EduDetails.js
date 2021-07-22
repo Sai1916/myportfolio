@@ -3,13 +3,16 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
-const EduDetails = ({ title, university, year, logo }) => {
+const EduDetails = ({ title,branch, university, year, logo }) => {
     return (
         <Container>
             <DetailsConatiner>
                 <Title>
                     {title}
                 </Title>
+                <Branch>
+                    {branch}   
+                </Branch>
                 <CollegeName>
                     {university}
                 </CollegeName>
@@ -48,6 +51,13 @@ const Title = styled.h3`
     font-weight: 700px;
     @media (max-width:425px){
         font-size: 20px;
+    }
+`
+const Branch = sytled.p`
+    font-size: 16px;
+    font-weight: 600px;
+    @media (max-width:425px){
+       font-size: 14px;
     }
 `
 const CollegeName = styled.p`
