@@ -12,7 +12,7 @@ export default function Education() {
                 <Details>
                     {data.map((edu) => (
                         <Data key={edu.id}>
-                            <EduDetails key={edu.id} title={edu.title} university={edu.university} year={edu.year} logo={edu.logo}/>
+                            <EduDetails key={edu.id} title={edu.title} branch={edu.branch} university={edu.university} year={edu.year} logo={edu.logo}/>
                         </Data>
                     ))}
                 </Details>
