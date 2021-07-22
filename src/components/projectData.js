@@ -22,5 +22,13 @@ export const projects = [
         description: 'The BookMyShow App redesign has done using Adobe-XD with both Light-mode and Dark-mode.',
         repoLink: '',
         demoLink: 'https://xd.adobe.com/view/f65cd26e-a455-4c4c-ade7-af014605a4c1-a30f/',
+    },
+    {
+        id: 4,
+        title: 'Youtube Homepage Frontend',
+        image: '/bookmyshow2.png',
+        description: 'The Youtube Homepage frontend development was done using React.js and I have used Material-UI Library for the icons.',
+        repoLink: '',
+        demoLink: 'https://youtube-clone-frontend.netlify.app',
     }
 ]
