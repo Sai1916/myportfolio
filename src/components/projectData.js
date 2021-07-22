@@ -26,7 +26,7 @@ export const projects = [
     {
         id: 4,
         title: 'Youtube Homepage Frontend',
-        image: '/bookmyshow2.png',
+        image: '/Youtube.png',
         description: 'The Youtube Homepage frontend development was done using React.js and I have used Material-UI Library for the icons.',
         repoLink: '',
         demoLink: 'https://youtube-clone-frontend.netlify.app',
