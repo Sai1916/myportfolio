@@ -36,28 +36,30 @@ const Title = styled.h4`
 `
 const Details = styled.div`
     padding: 20px;
+    background: rgba(42, 191, 250,0.14);
     margin: 10px;
     display: flex;
-    height: 240px;;
+    height: 240px;
+    border-radius: 20px;
+    color: white;
     align-items: center;
     justify-content: center;
     @media (max-width:425px){
         padding: 10px;
-        height: 160px;
+        height: 200px;
     }
 `
 const Data = styled.div`
-    background: #329662;
+    backdrop-filter: blur(10px);
     width: 80%;
     height: 100%;
+    border-radius:20px;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    border-radius: 20px;
     :hover{
         transform: scale(1.01);
         cursor:pointer;
     }
-
     @media (max-width:425px){
         padding: 5px;
         display: flex;
