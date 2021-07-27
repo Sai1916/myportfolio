@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Skills from '../src/components/Skills'
 import Education from '../src/components/Education'
 import Projects from '../src/components/Projects'
+import Contact from '../src/components/Contact'
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Skills />
       <Education />
       <Projects />
+      <Contact />
     </div>
   )
 }
