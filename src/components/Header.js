@@ -4,11 +4,13 @@ import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
-import { SwipeableDrawer, Button } from '@material-ui/core';
+import { Drawer, IconButton, List, ListItem, ListItemText } from '@material-ui/core';
 
 export default function Header() {
 
     const [show,handleShow] = useState(false);
+
+    const [open,setOpen] = useState(false);
 
     const transitionNavBar = () => {
         if(window.scrollY > 60) {
@@ -17,6 +19,10 @@ export default function Header() {
         else{
             handleShow(false);
         }
+    }
+
+    const handleDrawer = () => {
+        setOpen(true);
     }
 
     useEffect(() => {
@@ -64,16 +70,47 @@ export default function Header() {
                     </Link>
                 </Item>
             </NavItems>
-            <MenuHeaderIcon>
-                <MenuIcon />
+            <MenuHeaderIcon onClick={handleDrawer}> 
+                    <MenuIcon style={{color:`${show} ? " white" : "primary" `}}/>
             </MenuHeaderIcon>
+            <Drawer
+                anchor='right'
+                open={open}
+                onClose={() => setOpen(false)}
+                className={styles.drawer}
+            >
+                <DrawerNav>
+                    <CloseIconButton onClick={() => setOpen(false)}/>
+                    <Title>
+                        <Link href='/'>
+                            <a>
+                                <span className="grey-color"> &lt;</span>
+                                Sai Sumedh
+                                <span className="grey-color">/&gt;</span>
+                            </a>
+                        </Link>
+                    </Title>
+                    <Items>
+                        <List>
+                            {[{text:"About",id:"#about"},{text:"Skills",id:"#skills"},{text:"Education",id:"#education"},{text:"Projects",id:"#projects"},{text:"Contact Me",id:"#contact"}].map((item) => (
+                                <Link href={item.id} key={item.text}>
+                                    <a>
+                                        <DisplayItem button key={item.text} autoFocus="true">
+                                            <ListItemText primary={item.text} />
+                                        </DisplayItem>
+                                    </a>
+                                </Link>
+                            ))}
+                        </List>
+                    </Items>
+                </DrawerNav>
+            </Drawer>
         </HeaderContainer>
     )
 }
 
 const HeaderContainer = styled.header`
     height: 40px;
-    // width: 100%;
     display: flex;
     padding: 6px;
     position: sticky;
@@ -122,7 +159,6 @@ const NavItems = styled.div`
     }
 `
 const Item = styled.h4`
-    // margin-right: 40px;
     font-weight: 600;
     cursor:pointer;
 `
@@ -133,4 +169,30 @@ const MenuHeaderIcon = styled.div`
         margin-top: 10px;
         cursor: pointer;
     }
+`
+const DrawerNav = styled.div`
+    height: 100%;
+    width: 200px;
+    padding: 20px;
+`
+
+const Title=styled.h3`
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+`
+const CloseIconButton=styled(CloseIcon)`
+    display: flex;
+    justify-content:flex-end;
+`
+
+const Items = styled.div`
+    margin-top: 50px;
+    align-items: center;
+    justify-content:center;
+`
+
+const DisplayItem = styled(ListItem)`
+      
 `
