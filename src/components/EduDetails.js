@@ -54,14 +54,14 @@ const Title = styled.h3`
     }
 `
 const Branch = styled.p`
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600px;
     @media (max-width:425px){
        font-size: 14px;
     }
 `
 const CollegeName = styled.p`
-    font-size:18px; 
+    font-size:22px; 
     font-weight: bold;
     @media (max-width:425px){
        font-size: 16px;
