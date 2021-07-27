@@ -39,7 +39,7 @@ const Details = styled.div`
     margin: 10px;
     display: flex;
     height: 240px;
-    background: rgba(42, 191, 250,0.14);
+    background: rgba(42, 191, 250,0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     color: white;
