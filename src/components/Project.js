@@ -49,12 +49,10 @@ const Container = styled.div`
     justify-content: space-around;
 
     &:hover{
-        transform: scale(1.01);
+        transform: scale(1.2);
         cursor: pointer;
-        box-shadow: 1px 1px 2px 1px lightgray;
-        transition-timing-function: ease-in;
-        transition: all 0.5s;
-
+        transition-timing-function: ease-in-out;
+        transition: all 0.3s;
     }
 `
 const Title= styled.p`
