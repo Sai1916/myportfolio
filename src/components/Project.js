@@ -59,7 +59,7 @@ const Container = styled.div`
 `
 const Title= styled.p`
     margin: 10px auto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     display:flex;
     align-items:center;
