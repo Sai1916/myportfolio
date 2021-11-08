@@ -61,6 +61,8 @@ const Title= styled.p`
     margin: 10px auto;
     font-size: 22px;
     font-weight: bold;
+    display:flex;
+    align-items:center;
 `
 const Description= styled.p`
     font-size: 15px;
