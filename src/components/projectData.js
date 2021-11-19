@@ -34,7 +34,7 @@ export const projects = [
     {
         id: 5,
         title: 'Netflix Clone App',
-        image: '/netflix-react-native',
+        image: '/netflix-react-native.jpg',
         description: 'This app was developed using react-native with expo, I have used firebase for authentication and database. I used TMDB API to get movie data and displayed them in my app, also added a detail screen to render specific movie details if we click on any movie poster.',
         repoLink: 'https://github.com/Sai1916/Netflix-Clone-React-Native',
         demoLink: 'https://expo.dev/@sumedh_expo/netflix-clone-app',
@@ -50,7 +50,7 @@ export const projects = [
     {
         id: 7,
         title: 'Hospital Appointment Booking App UI',
-        image: '/habp.png',
+        image: '/hapb.png',
         description: 'This App was designed using React-Native and used Expo for creating a react-native project. This app contains 3 tabs which has HomeScreen, Appointment Scheduling Screen and Profile Screen.',
         repoLink: 'https://github.com/Sai1916/Hospital-Appointment-Booking-App',
         demoLink: 'https://expo.dev/@sumedh_expo/hospitalappointmentbooking',
