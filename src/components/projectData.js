@@ -58,7 +58,7 @@ export const projects = [
     {
         id: 8,
         title: 'Todo App using React-Native',
-        image: '/hapb.png',
+        image: '/todo.png',
         description: 'This App was designed using React-Native and used Expo for creating a react-native project. This app contains 2 screens which has HomeScreen and Add-Todo Screen.',
         repoLink: 'https://github.com/Sai1916/TodoApp-ReactNative-and-TailwindCss',
         demoLink: 'https://expo.dev/@sumedh_expo/TaskSaver',
