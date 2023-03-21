@@ -75,4 +75,11 @@ const Links= styled.div`
     margin-bottom: 10px;
 `
 const LinkButton= styled.div`
+    &:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+        transition-timing-function: ease-in;
+        transition: 0.3s;
+        background-color: black;
+    }
 `
