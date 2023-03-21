@@ -54,5 +54,21 @@ export const projects = [
         description: 'This App was designed using React-Native and used Expo for creating a react-native project. This app contains 3 tabs which has HomeScreen, Appointment Scheduling Screen and Profile Screen.',
         repoLink: 'https://github.com/Sai1916/Hospital-Appointment-Booking-App',
         demoLink: 'https://expo.dev/@sumedh_expo/hospitalappointmentbooking',
+    },
+    {
+        id: 8,
+        title: 'Todo App using React-Native',
+        image: '/hapb.png',
+        description: 'This App was designed using React-Native and used Expo for creating a react-native project. This app contains 2 screens which has HomeScreen and Add-Todo Screen.',
+        repoLink: 'https://github.com/Sai1916/TodoApp-ReactNative-and-TailwindCss',
+        demoLink: 'https://expo.dev/@sumedh_expo/TaskSaver',
+    },
+    {
+        id: 9,
+        title: 'Hospital Appointment Booking App UI',
+        image: '/medium-pic.png',
+        description: 'This App was designed using Next.js and Sanity-io for Content Management System. This app is nothing but a blog site which is similar to Medium.',
+        repoLink: 'https://github.com/Sai1916/medium-nextjs-sanity-clone',
+        demoLink: 'https://sumedhblogs.vercel.app/',
     }
 ]
