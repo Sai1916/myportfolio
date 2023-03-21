@@ -49,7 +49,7 @@ export const projects = [
     },
     {
         id: 7,
-        title: 'Hospital Appointment Booking App UI',
+        title: 'Hospital Appointment Booking App',
         image: '/hapb.png',
         description: 'This App was designed using React-Native and used Expo for creating a react-native project. This app contains 3 tabs which has HomeScreen, Appointment Scheduling Screen and Profile Screen.',
         repoLink: 'https://github.com/Sai1916/Hospital-Appointment-Booking-App',
@@ -65,9 +65,9 @@ export const projects = [
     },
     {
         id: 9,
-        title: 'Hospital Appointment Booking App UI',
+        title: 'Medium Clone using Next.js and Sanity.io',
         image: '/medium-pic.png',
-        description: 'This App was designed using Next.js and Sanity-io for Content Management System. This app is nothing but a blog site which is similar to Medium.',
+        description: 'This App was designed using Next.js and Sanity.io for Content Management System. This app is nothing but a blog site which is similar to Medium.',
         repoLink: 'https://github.com/Sai1916/medium-nextjs-sanity-clone',
         demoLink: 'https://sumedhblogs.vercel.app/',
     }
