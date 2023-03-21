@@ -61,10 +61,12 @@ const Title= styled.p`
     font-weight: bold;
     display:flex;
     align-items:center;
+    text-align: center;
 `
 const Description= styled.p`
     font-size: 15px;
     padding: 10px;
+    font-family: system-ui;
 `
 const Links= styled.div`
     display: flex;
